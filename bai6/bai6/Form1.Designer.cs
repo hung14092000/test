@@ -38,6 +38,7 @@
             this.lblDesignBy = new System.Windows.Forms.Label();
             this.lblCount = new System.Windows.Forms.Label();
             this.btnThoat = new System.Windows.Forms.Button();
+            this.btnClose2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picHaTa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picNangTa)).BeginInit();
             this.SuspendLayout();
@@ -97,7 +98,7 @@
             this.btnClick.BackColor = System.Drawing.Color.Silver;
             this.btnClick.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClick.ForeColor = System.Drawing.Color.Red;
-            this.btnClick.Location = new System.Drawing.Point(30, 428);
+            this.btnClick.Location = new System.Drawing.Point(30, 411);
             this.btnClick.Name = "btnClick";
             this.btnClick.Size = new System.Drawing.Size(341, 57);
             this.btnClick.TabIndex = 5;
@@ -124,6 +125,7 @@
             this.lblCount.Size = new System.Drawing.Size(113, 41);
             this.lblCount.TabIndex = 7;
             this.lblCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblCount.Click += new System.EventHandler(this.lblCount_Click);
             // 
             // btnThoat
             // 
@@ -136,12 +138,23 @@
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
+            // btnClose2
+            // 
+            this.btnClose2.Location = new System.Drawing.Point(82, 474);
+            this.btnClose2.Name = "btnClose2";
+            this.btnClose2.Size = new System.Drawing.Size(75, 23);
+            this.btnClose2.TabIndex = 9;
+            this.btnClose2.Text = "Close2";
+            this.btnClose2.UseVisualStyleBackColor = true;
+            this.btnClose2.Click += new System.EventHandler(this.btnClose2_Click);
+            // 
             // frmTapLuyen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(389, 575);
+            this.Controls.Add(this.btnClose2);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.lblCount);
             this.Controls.Add(this.lblDesignBy);
@@ -173,6 +186,7 @@
         private System.Windows.Forms.Label lblDesignBy;
         private System.Windows.Forms.Label lblCount;
         private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.Button btnClose2;
     }
 }
 

@@ -8,3 +8,13 @@ D:\HOCTAP\C#\Basic\WinForm\bai6\bai6\obj\Debug\bai6.csproj.GenerateResource.cach
 D:\HOCTAP\C#\Basic\WinForm\bai6\bai6\obj\Debug\bai6.csproj.CoreCompileInputs.cache
 D:\HOCTAP\C#\Basic\WinForm\bai6\bai6\obj\Debug\bai6.exe
 D:\HOCTAP\C#\Basic\WinForm\bai6\bai6\obj\Debug\bai6.pdb
+D:\HOCTAP\C#\test\test\bai6\bai6\obj\Debug\bai6.csproj.AssemblyReference.cache
+D:\HOCTAP\C#\test\test\bai6\bai6\obj\Debug\bai6.frmTapLuyen.resources
+D:\HOCTAP\C#\test\test\bai6\bai6\obj\Debug\bai6.Properties.Resources.resources
+D:\HOCTAP\C#\test\test\bai6\bai6\obj\Debug\bai6.csproj.GenerateResource.cache
+D:\HOCTAP\C#\test\test\bai6\bai6\obj\Debug\bai6.csproj.CoreCompileInputs.cache
+D:\HOCTAP\C#\test\test\bai6\bai6\obj\Debug\bai6.exe
+D:\HOCTAP\C#\test\test\bai6\bai6\obj\Debug\bai6.pdb
+D:\HOCTAP\C#\test\test\bai6\bai6\bin\Debug\bai6.exe.config
+D:\HOCTAP\C#\test\test\bai6\bai6\bin\Debug\bai6.exe
+D:\HOCTAP\C#\test\test\bai6\bai6\bin\Debug\bai6.pdb

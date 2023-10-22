@@ -59,31 +59,43 @@ namespace bai6
                 if (count == 11)
                 {
                     DialogResult cc2 = MessageBox.Show("Sếp khỏe quá, được 10 cái rồi, có muốn hiệp nữa không sếp?",
-                        "Notice", 
-                        MessageBoxButtons.YesNo, 
+                        "Notice",
+                        MessageBoxButtons.YesNo,
                         MessageBoxIcon.Question);
                     if (cc2 == DialogResult.Yes)
                     {
                         count = 1;
                     }
-                    else 
+                    else
                         Close();
                 }
-            }    
+            }
             else
             {
                 picHaTa.Visible = false;
                 picNangTa.Visible = true;
                 btnClick.Text = btnClick.Text.Replace("nâng", "hạ");
-            }    
-        }
-
+            }
+        }  
         private void chkMusic_CheckedChanged(object sender, EventArgs e)
         {
             if (chkMusic.Checked == true)
                 choiNhac.Play();
             else
                 choiNhac.Stop();
+        }
+        private void lblCount_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void btnClose2_Click(object sender, EventArgs e)
+        {
+            DialogResult cc2 =  MessageBox.Show("Có muốn thoát k?", "Confirm?", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if ( cc2 == DialogResult.OK)
+            {
+                Close();
+            }
+            
         }
     }
 }
